@@ -1,0 +1,24 @@
+{
+    "name": "elizabeth",
+    "version": "1.0.0",
+    "description": "[![Generic badge](https://img.shields.io/badge/course%20available%3F-yes-green.svg)](https://shields.io/)",
+    "main": "index.js",
+    "scripts": {
+        "tailwind": "npx tailwindcss -i ./src/input.css -o ./assets/application.css --watch",
+        "dev": "shopify theme dev",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nikosargalias/Elizabeth_Clean.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nikosargalias/Elizabeth_Clean/issues"
+    },
+    "homepage": "https://github.com/nikosargalias/Elizabeth_Clean#readme",
+    "devDependencies": {
+        "tailwindcss": "^3.2.4"
+    }
+}
